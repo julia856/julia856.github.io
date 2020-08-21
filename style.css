@@ -1,5 +1,73 @@
+.header-logo {
+  float: left;
+  height: 70px;
+}
+
+.header-title {
+  padding-bottom: 10px;
+}
+
+li {
+  font-family: "MS P明朝", "ヒラギノ明朝", "Times", serif;
+  font-size: 20px;
+  padding-right: 10px;
+  list-style: none;
+  float: left;
+}
+
+h1 {
+  font-family: 'Permanent Marker'; 
+  color: black;
+  font-size: 40px;
+}
+
+.summer {
+  position: relative;
+}
+
+.summer h2  {
+  position: absolute;/*絶対配置*/
+  color: white;/*文字は白に*/
+  top: 50%;
+  left: 30%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+.summer p {
+  position: absolute;/*絶対配置*/
+  color:#323F7D;/*文字は白に*/
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+.summer img {
+  width: 100%;
+  }
+  
+h2 {
+  font-family: "MS P明朝", "ヒラギノ明朝", "Times", serif;
+  font-size: 150px;
+}
+
+h3 {
+  font-family: "MS P明朝", "ヒラギノ明朝", "Times", serif;
+  font-size: 40px;
+}
+
 p {
-    float: left;
-    font-family: "Hannari";
-    font-size: 30px;
+  font-family: "MS P明朝", "ヒラギノ明朝", "Times", serif;
+  font-size: 20px;
+}
+
+img {
+  vertical-align: middle;
 }
