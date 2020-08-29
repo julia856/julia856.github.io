@@ -11,12 +11,14 @@ li {
   font-family: "MS P明朝", "ヒラギノ明朝", "Times", serif;
   font-size: 20px;
   padding-right: 10px;
+  padding-bottom: 30px;
   list-style: none;
   float: left;
 }
 
 h1 {
-  font-family: 'Permanent Marker'; 
+  font-family: "MS P明朝", "ヒラギノ明朝", "Times", serif;
+  padding-top: 10px;
   color: black;
   font-size: 40px;
 }
@@ -28,8 +30,9 @@ h1 {
 .summer h2  {
   position: absolute;/*絶対配置*/
   color: white;/*文字は白に*/
-  top: 50%;
-  left: 30%;
+  top: 55%;
+  left: 20%;
+  font-size: 300px;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
@@ -42,11 +45,12 @@ h1 {
   color:#323F7D;/*文字は白に*/
   top: 50%;
   left: 50%;
+  font-size: 40px;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
   margin:0;
-  padding:0;
+  
 }
 
 .summer img {
@@ -55,7 +59,11 @@ h1 {
   
 h2 {
   font-family: "MS P明朝", "ヒラギノ明朝", "Times", serif;
-  font-size: 150px;
+  font-size: 100px;
+}
+
+.gokan {
+  background: linear-gradient(135deg,#2bc0e4, #eaecc6);
 }
 
 h3 {
@@ -68,6 +76,4 @@ p {
   font-size: 20px;
 }
 
-img {
-  vertical-align: middle;
-}
+
