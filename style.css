@@ -1,10 +1,27 @@
+body {
+  background: linear-gradient(135deg,#2bc0e4, #eaecc6);
+}
+
 .header-logo {
   float: left;
   height: 70px;
 }
 
-.header-title {
-  padding-bottom: 10px;
+.header {
+  position: relative;
+}
+
+.header title {
+  position: absolute;/*絶対配置*/
+  color: white;/*文字は白に*/
+  top: 10%;
+  left: 0%;
+  font-size: 70px;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
 }
 
 li {
@@ -13,7 +30,7 @@ li {
   padding-right: 10px;
   padding-bottom: 30px;
   list-style: none;
-  float: left;
+  display: inline-block;
 }
 
 h1 {
@@ -62,10 +79,6 @@ h2 {
   font-size: 100px;
 }
 
-.gokan {
-  background: linear-gradient(135deg,#2bc0e4, #eaecc6);
-}
-
 h3 {
   font-family: "MS P明朝", "ヒラギノ明朝", "Times", serif;
   font-size: 40px;
@@ -76,4 +89,14 @@ p {
   font-size: 20px;
 }
 
+.shikaku img {
+  height: 120px;
+}
 
+.shokkaku img {
+  height: 120px;
+}
+
+.kyukaku img {
+  height: 120px;
+}
