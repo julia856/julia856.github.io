@@ -72,11 +72,22 @@ h1 {
 
 .summer img {
   width: 100%;
-  }
+}
   
 h2 {
   font-family: "MS P明朝", "ヒラギノ明朝", "Times", serif;
   font-size: 100px;
+}
+
+.hajime h4{
+  font-family: "MS P明朝", "ヒラギノ明朝", "Times", serif;
+  font-size: 40px;
+}
+
+.hajime p {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(52, 52, 112);
 }
 
 h3 {
